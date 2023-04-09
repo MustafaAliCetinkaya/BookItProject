@@ -93,7 +93,5 @@ public class BookItApiUtil {
         System.out.println(role+":"+accessToken);
         return "Bearer " + accessToken;
 
-
-
     }
 }

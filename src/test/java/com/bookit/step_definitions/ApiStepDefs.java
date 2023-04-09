@@ -159,4 +159,5 @@ public class ApiStepDefs {
     public void iLoggedBookitApiAs(String role) {
        token= BookItApiUtil.getTokenByRole(role);
     }
+
 }
