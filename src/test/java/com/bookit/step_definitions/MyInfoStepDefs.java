@@ -21,8 +21,6 @@ public class MyInfoStepDefs {
 		BrowserUtils.waitFor(1);
 	    signInPage.signInButton.click();
 
-
-	    	    
 	}
 
 	@When("user is on the my self page")
@@ -48,7 +46,6 @@ public class MyInfoStepDefs {
 		BookItApiUtil.getTokenByRole("teacher");
 		BookItApiUtil.getTokenByRole("student-member");
 		BookItApiUtil.getTokenByRole("student-leader");
-
 
 	}
 }
