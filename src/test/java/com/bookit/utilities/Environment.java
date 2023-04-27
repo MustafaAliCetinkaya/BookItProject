@@ -24,7 +24,7 @@ public class Environment {
     static {
 
             String environment = System.getProperty("environment") != null ? System.getProperty("environment")
-                    : ConfigurationReader.get("environment");
+                    : ConfigurationReader.get("environment");//If you do not write your environment on the console, it will pass it from environment value automatically
             //String environment = ConfigurationReader.get("environment");
 
 
