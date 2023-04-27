@@ -1,11 +1,13 @@
 package com.bookit.step_definitions;
 
+
 import com.bookit.pages.SelfPage;
 import com.bookit.pages.SignInPage;
 import com.bookit.utilities.*;
 import cucumber.runtime.Env;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
+
 
 public class MyInfoStepDefs {
 
@@ -19,6 +21,8 @@ public class MyInfoStepDefs {
 		BrowserUtils.waitFor(1);
 	    signInPage.signInButton.click();
 
+
+	    	    
 	}
 
 	@When("user is on the my self page")
@@ -44,6 +48,7 @@ public class MyInfoStepDefs {
 		BookItApiUtil.getTokenByRole("teacher");
 		BookItApiUtil.getTokenByRole("student-member");
 		BookItApiUtil.getTokenByRole("student-leader");
+
 
 	}
 }

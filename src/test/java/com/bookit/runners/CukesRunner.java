@@ -8,11 +8,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",
                   "html:target/default-html-reports"},
-        features = "src/test/resources/features",
-        glue = "com/bookit/step_definitions",
+        features = "src/test/resources/features/",
+        glue = "com/bookit/step_definitions/",
         dryRun = false,
-        tags = "@wip2"
+        tags = ""
 )
-
 public class CukesRunner {
 }
