@@ -9,8 +9,7 @@ public class SignInPage {
 	
 	public SignInPage() {
 		PageFactory.initElements(Driver.get(), this);
-	}	
-	
+	}
 	@FindBy(name="email")
 	public WebElement email;
 
